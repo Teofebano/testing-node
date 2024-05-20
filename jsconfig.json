@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "checkJs": true,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "baseUrl": "./",
+        "paths": {
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@models/*": [
+                "src/models/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
